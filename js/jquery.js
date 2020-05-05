@@ -27,7 +27,7 @@ const display =() =>{
         let tdphoneNumber = $(`<td>${user.phoneNumber}</td>`);
         let tdreviewer = $(`<td>${user.reviewer ? "Yes": "No"}</td>`);
         let tdadmin = $(`<td>${user.admin ? "Yes": "No"}</td>`);
-        //this (id line) is a compact way, why create a variable then use is in the next line, just combine it
+        //this (id line) is a compact way, why create a variable then use it in the next line, just combine it
         tr.append($(`<td>${user.id}</td>`));
         tr.append(tduserName);
         tr.append(tdFullName);
