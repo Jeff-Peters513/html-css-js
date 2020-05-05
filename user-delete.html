@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/user-detail.css"> -->
+    <script src ="js/user-controller.js"></script>
+    <script src = "js/user-delete.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <label>User id:</label>
+        <input id ="userid" type="number" >
+        <button id = "get">Get User</button>
+    </div>
+    <table class = "table table-sm">
+        <tr>
+            <th>Id:</th>
+            <td id = "eid" size="35"></td>
+        </tr>
+        <tr>
+            <th>Username:</th>
+            <td id = "eusername"></td>
+        </tr>
+        <tr>
+            <th>Full Name:</th>
+            <td id = "efullname"></td>
+        </tr>
+        <tr>
+            <th>Phone number:</th>
+            <td id = "ephonenumber"></td>
+        </tr>
+        <tr>
+            <th>E-mail:</th>
+            <td id = "eemail"></td>
+        </tr>
+        <tr>
+            <th>Reviewer?:</th>
+            <td id = "ereviewer"></td>
+            
+        </tr>
+        <tr>
+            <th>Admin?:</th>
+            <td id = "eadmin"></td>
+        </tr>
+
+    </table>
+    <button id="delete">Delete</button>
+    
+</body>
+
+</html>
